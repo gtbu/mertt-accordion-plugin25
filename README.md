@@ -9,7 +9,7 @@ https://codesandbox.io/p/devbox/3lk5nt
 
 1. Clone mertt-accordion-plugin repository.
 2. Go to your CKEditor4 folder and add the "mertt-accordion-plugin" to **plugins** folder.
-3. Open "config.js" file of CKEditor4 and change it as in the code below.
+3. Open **config.js** file of CKEditor4 and change it as in the code below.
 
  ```js
    CKEDITOR.editorConfig = function (config) {
