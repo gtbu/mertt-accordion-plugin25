@@ -2,7 +2,7 @@ CKEDITOR.plugins.add('merttaccordion', {
     lang: ['tr', 'en'],
     icons: 'merttaccordion',
     init: function (editor) {  
-
+     editor.addContentsCss(this.path + 'styles.css');
       editor.on('contentDom', function(evt) {
         evt.editor.editable().on('click', function (event) {
           if(event.data.$.target.tagName == 'BUTTON'){
